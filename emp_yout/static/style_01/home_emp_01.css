@@ -1,0 +1,41 @@
+.container-fluid{
+    background: #000;
+    height: 4rem;
+    color: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+#nav_head_name{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+#nav_head_name:hover{
+    color: red;
+}
+#btn_home_01{
+    height: 2.5rem;
+    width: 7rem;
+    background-color: #4db5ff;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+#btn_home_01:hover{
+    color: #000;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}

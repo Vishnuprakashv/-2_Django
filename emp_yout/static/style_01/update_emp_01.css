@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#update_emp{
+    width: 100%;
+    border: 5px solid #4db5ff;
+    border-radius: 3rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn_01{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: rgba(77,181,255,0.4);
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    color: red;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#btn_01:hover{
+    background-color: #4db5ff;
+    color: #000;
+}
+#btn_02{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: rgba(77,181,255,0.4);
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#btn_02:hover{
+    background-color: #4db5ff;
+    color: #000;
+}
+.add_emp_nav{
+    height: 10vh;
+    width: 95%;
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    border: none;
+    border-radius: 1rem;   
+}
